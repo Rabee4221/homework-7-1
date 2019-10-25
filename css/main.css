@@ -1,0 +1,148 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+
+
+
+
+
+.title {
+    margin: 135px auto 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 532px;
+    
+}
+
+.title .text {
+    font-size: 12px;
+    margin: 0 0 34px 0;
+    color: #898f99;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title .logo {
+    font-size: 48px;
+    margin: 0 0 44px 0;
+    color: #0ec8cb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title .bottom {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 98px 0;
+    color: #999999;
+    
+}
+
+
+
+
+.iconboxes {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 940px;
+    padding: 0 0 0 0;
+    
+}
+
+.iconboxes li {
+    flex-grow: 1;
+    width: 230px;
+    height: 420px;
+    padding: 0 30px;
+    border: 1px solid #ececec;
+    
+}
+
+.iconboxes .icon {
+    text-align: center;
+    color: #1b1b1b;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 56px 10px 53px 0;
+    font-size: 64px;
+
+}
+
+
+.caption {
+    font-size: 21px;
+    margin: 0px 0 24px 0;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+li:hover,
+li:hover .icon,
+li:hover .caption {
+    background-color: #0ec8cb;
+    color: #fff;
+    
+
+}
